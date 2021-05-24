@@ -15,7 +15,11 @@ struct StoryListView: View {
             
             
             List(self.storyListViewModel.stories,id:\.id){ storyViewModel in
-                Text("\(storyViewModel.id)")
+                NavigationLink(
+                    destination: StoryDetailView(storyId:storyViewModel.id),
+                    label: {
+                        Text("\(storyViewModel.id)")
+                    })
             }
             
             
