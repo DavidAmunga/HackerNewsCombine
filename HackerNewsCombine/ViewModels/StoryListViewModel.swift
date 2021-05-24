@@ -19,7 +19,7 @@ class StoryListViewModel:ObservableObject{
     
     private func fetchTopStories(){
         
-        self.cancellable =  Webservice.getAllTopStories().map{storyIds in
+        self.cancellable =  Webservice().getAllTopStories().map{storyIds in
             storyIds.map { StoryViewModel(id:$0)
             }
         }.sink { _ in

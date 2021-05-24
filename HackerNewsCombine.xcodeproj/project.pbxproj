@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DD4F5610265C116A00D4B6F5 /* HackerNewsCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F560F265C116A00D4B6F5 /* HackerNewsCombineApp.swift */; };
-		DD4F5612265C116A00D4B6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5611265C116A00D4B6F5 /* ContentView.swift */; };
 		DD4F5614265C116C00D4B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5613265C116C00D4B6F5 /* Assets.xcassets */; };
 		DD4F5617265C116C00D4B6F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5616265C116C00D4B6F5 /* Preview Assets.xcassets */; };
 		DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F561F265C119E00D4B6F5 /* Webservice.swift */; };
 		DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */; };
+		DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5625265C143D00D4B6F5 /* StoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD4F560C265C116A00D4B6F5 /* HackerNewsCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNewsCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F560F265C116A00D4B6F5 /* HackerNewsCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsCombineApp.swift; sourceTree = "<group>"; };
-		DD4F5611265C116A00D4B6F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD4F5613265C116C00D4B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4F5616265C116C00D4B6F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD4F5618265C116C00D4B6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4F561F265C119E00D4B6F5 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewModel.swift; sourceTree = "<group>"; };
+		DD4F5625265C143D00D4B6F5 /* StoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 		DD4F560E265C116A00D4B6F5 /* HackerNewsCombine */ = {
 			isa = PBXGroup;
 			children = (
+				DD4F5624265C143100D4B6F5 /* Views */,
 				DD4F5621265C12DE00D4B6F5 /* ViewModels */,
 				DD4F561E265C119200D4B6F5 /* Services */,
 				DD4F560F265C116A00D4B6F5 /* HackerNewsCombineApp.swift */,
-				DD4F5611265C116A00D4B6F5 /* ContentView.swift */,
 				DD4F5613265C116C00D4B6F5 /* Assets.xcassets */,
 				DD4F5618265C116C00D4B6F5 /* Info.plist */,
 				DD4F5615265C116C00D4B6F5 /* Preview Content */,
@@ -89,6 +89,14 @@
 				DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD4F5624265C143100D4B6F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5625265C143D00D4B6F5 /* StoryListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */,
-				DD4F5612265C116A00D4B6F5 /* ContentView.swift in Sources */,
+				DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */,
 				DD4F5610265C116A00D4B6F5 /* HackerNewsCombineApp.swift in Sources */,
 				DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */,
 			);
