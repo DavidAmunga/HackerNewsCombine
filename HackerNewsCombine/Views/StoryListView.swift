@@ -27,5 +27,6 @@ struct StoryListView: View {
 struct StoryListView_Previews: PreviewProvider {
     static var previews: some View {
         StoryListView()
+            .previewDevice("iPhone 12 Pro Max")
     }
 }

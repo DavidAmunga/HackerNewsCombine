@@ -13,6 +13,7 @@
 		DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F561F265C119E00D4B6F5 /* Webservice.swift */; };
 		DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */; };
 		DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5625265C143D00D4B6F5 /* StoryListView.swift */; };
+		DD4F5629265C16ED00D4B6F5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5628265C16ED00D4B6F5 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD4F561F265C119E00D4B6F5 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewModel.swift; sourceTree = "<group>"; };
 		DD4F5625265C143D00D4B6F5 /* StoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListView.swift; sourceTree = "<group>"; };
+		DD4F5628265C16ED00D4B6F5 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DD4F560E265C116A00D4B6F5 /* HackerNewsCombine */ = {
 			isa = PBXGroup;
 			children = (
+				DD4F5627265C16E200D4B6F5 /* Models */,
 				DD4F5624265C143100D4B6F5 /* Views */,
 				DD4F5621265C12DE00D4B6F5 /* ViewModels */,
 				DD4F561E265C119200D4B6F5 /* Services */,
@@ -97,6 +100,14 @@
 				DD4F5625265C143D00D4B6F5 /* StoryListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DD4F5627265C16E200D4B6F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5628265C16ED00D4B6F5 /* Story.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */,
 				DD4F5610265C116A00D4B6F5 /* HackerNewsCombineApp.swift in Sources */,
 				DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */,
+				DD4F5629265C16ED00D4B6F5 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
