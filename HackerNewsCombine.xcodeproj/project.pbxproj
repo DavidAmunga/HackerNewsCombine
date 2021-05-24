@@ -16,6 +16,7 @@
 		DD4F5629265C16ED00D4B6F5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5628265C16ED00D4B6F5 /* Story.swift */; };
 		DD4F562C265C180800D4B6F5 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F562B265C180800D4B6F5 /* StoryDetailViewModel.swift */; };
 		DD4F562E265C1AAB00D4B6F5 /* StoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F562D265C1AAB00D4B6F5 /* StoryDetailView.swift */; };
+		DD4F5630265C21F700D4B6F5 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F562F265C21F700D4B6F5 /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DD4F5628265C16ED00D4B6F5 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		DD4F562B265C180800D4B6F5 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		DD4F562D265C1AAB00D4B6F5 /* StoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailView.swift; sourceTree = "<group>"; };
+		DD4F562F265C21F700D4B6F5 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				DD4F5625265C143D00D4B6F5 /* StoryListView.swift */,
 				DD4F562D265C1AAB00D4B6F5 /* StoryDetailView.swift */,
+				DD4F562F265C21F700D4B6F5 /* Webview.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */,
+				DD4F5630265C21F700D4B6F5 /* Webview.swift in Sources */,
 				DD4F562C265C180800D4B6F5 /* StoryDetailViewModel.swift in Sources */,
 				DD4F562E265C1AAB00D4B6F5 /* StoryDetailView.swift in Sources */,
 				DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */,

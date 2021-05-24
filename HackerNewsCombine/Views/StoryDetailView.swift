@@ -14,8 +14,11 @@ struct StoryDetailView: View {
         self.storyDetailViewModel = StoryDetailViewModel(storyId: storyId)
     }
     var body: some View {
-        VStack{
+        VStack {
             Text(self.storyDetailViewModel.title)
+            Webview(url: self.storyDetailViewModel.url)
+        }.onAppear {
+            self.storyDetailViewModel.fetchStoryDetails(storyId: self.storyId)
         }
     }
 }

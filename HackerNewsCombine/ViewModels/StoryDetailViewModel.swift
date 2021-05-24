@@ -33,6 +33,6 @@ extension StoryDetailViewModel{
     }
     
     var url:String{
-        self.story.url
+        return self.story.url
     }
 }
