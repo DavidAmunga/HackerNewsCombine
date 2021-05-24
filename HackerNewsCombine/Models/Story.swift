@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Story:Codable{
+struct Story:Codable {
     let id:Int
     let title:String
     let url:String

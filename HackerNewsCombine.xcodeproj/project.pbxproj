@@ -14,6 +14,7 @@
 		DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */; };
 		DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5625265C143D00D4B6F5 /* StoryListView.swift */; };
 		DD4F5629265C16ED00D4B6F5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5628265C16ED00D4B6F5 /* Story.swift */; };
+		DD4F562C265C180800D4B6F5 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F562B265C180800D4B6F5 /* StoryDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewModel.swift; sourceTree = "<group>"; };
 		DD4F5625265C143D00D4B6F5 /* StoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListView.swift; sourceTree = "<group>"; };
 		DD4F5628265C16ED00D4B6F5 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		DD4F562B265C180800D4B6F5 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				DD4F5622265C12ED00D4B6F5 /* StoryListViewModel.swift */,
+				DD4F562B265C180800D4B6F5 /* StoryDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4F5623265C12ED00D4B6F5 /* StoryListViewModel.swift in Sources */,
+				DD4F562C265C180800D4B6F5 /* StoryDetailViewModel.swift in Sources */,
 				DD4F5626265C143D00D4B6F5 /* StoryListView.swift in Sources */,
 				DD4F5610265C116A00D4B6F5 /* HackerNewsCombineApp.swift in Sources */,
 				DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */,
