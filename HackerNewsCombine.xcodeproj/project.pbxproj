@@ -11,6 +11,7 @@
 		DD4F5612265C116A00D4B6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5611265C116A00D4B6F5 /* ContentView.swift */; };
 		DD4F5614265C116C00D4B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5613265C116C00D4B6F5 /* Assets.xcassets */; };
 		DD4F5617265C116C00D4B6F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5616265C116C00D4B6F5 /* Preview Assets.xcassets */; };
+		DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F561F265C119E00D4B6F5 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DD4F5613265C116C00D4B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4F5616265C116C00D4B6F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD4F5618265C116C00D4B6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4F561F265C119E00D4B6F5 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		DD4F560E265C116A00D4B6F5 /* HackerNewsCombine */ = {
 			isa = PBXGroup;
 			children = (
+				DD4F561E265C119200D4B6F5 /* Services */,
 				DD4F560F265C116A00D4B6F5 /* HackerNewsCombineApp.swift */,
 				DD4F5611265C116A00D4B6F5 /* ContentView.swift */,
 				DD4F5613265C116C00D4B6F5 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				DD4F5616265C116C00D4B6F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD4F561E265C119200D4B6F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F561F265C119E00D4B6F5 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				DD4F5612265C116A00D4B6F5 /* ContentView.swift in Sources */,
 				DD4F5610265C116A00D4B6F5 /* HackerNewsCombineApp.swift in Sources */,
+				DD4F5620265C119E00D4B6F5 /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
